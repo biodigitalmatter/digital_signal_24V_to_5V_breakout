@@ -382,9 +382,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "24V",
-        "nets": [
-          "+24V"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
@@ -453,12 +451,12 @@
     "net_format_name": "",
     "ngspice": {
       "fix_include_paths": true,
-      "fix_passive_vals": false,
+      "fix_passive_vals": true,
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
-      "workbook_filename": ""
+      "model_mode": 1,
+      "workbook_filename": "digital_signal_24V_to_5V_breakout.wbk"
     },
     "page_layout_descr_file": "wider_rev_id.kicad_wks",
     "plot_directory": "",
@@ -471,14 +469,6 @@
     [
       "2cd2d80b-769e-4efe-bec4-d7d7b5997033",
       ""
-    ],
-    [
-      "7b1e1b5c-3e4b-4b50-80bd-6f7cf89a03de",
-      "digital_signal_24V_to_5V"
-    ],
-    [
-      "93bb0bcf-be0a-4baf-9c7b-e7b54381f33c",
-      "digital_signal_24V_to_5V1"
     ]
   ],
   "text_variables": {
